@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     char i;
-    i = getchar();
+    scanf("%c",&i);
     if (i>47&&i<=57) printf("Digit");
     else if (i==char(32))
     {
