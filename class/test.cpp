@@ -1,16 +1,13 @@
 #include <iostream>
 using namespace std;
-int main()
-{ int   i,s;
-  for (i=1;;i++)
 
-{
-
- if(i=-10)  break; 
-
- s=s+i;
-printf("12");
+void t1(int x){
+    cout<<++x;
 }
-printf("12");
-  return 0;
+int main()
+{
+    int x=0;
+    t1(x);
+    t1(x);
+    return 0;
 }
